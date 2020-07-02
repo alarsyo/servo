@@ -28,3 +28,11 @@ opt-level = 3
 
 # This is here to dedupe winapi since mio 0.6 is still using winapi 0.2.
 mio = { git = "https://github.com/servo/mio.git", branch = "servo" }
+
+[patch."https://github.com/servo/media"]
+servo-media = { git = "https://github.com/ferjm/media.git", branch = "devicemonitor" }
+servo-media-gstreamer = { git = "https://github.com/ferjm/media.git", branch = "devicemonitor" }
+servo-media-audio = { git = "https://github.com/ferjm/media.git", branch = "devicemonitor" }
+servo-media-player = { git = "https://github.com/ferjm/media.git", branch = "devicemonitor" }
+servo-media-streams = { git = "https://github.com/ferjm/media.git", branch = "devicemonitor" }
+servo-media-webrtc = { git = "https://github.com/ferjm/media.git", branch = "devicemonitor" }
